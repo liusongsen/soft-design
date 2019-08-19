@@ -14,7 +14,7 @@ class TextBuilder extends Builder
     public function makeTitle($title)
     {
         $this->buffer .= "======\n";
-        $this->buffer .= "[" + title + "]\n";
+        $this->buffer .= "[" + $title + "]\n";
         $this->buffer .= "\n";
     }
 
